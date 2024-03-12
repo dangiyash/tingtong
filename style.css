@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@font-face {
+  font-family: 'GTAFont';
+  src: url('path/to/GTAFont.woff2') format('woff2'),
+       url('path/to/GTAFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Black Ops One', 'BadassFont', 'GTAFont', 'San Andreas Font', 'Arial', sans-serif;
+  font-weight: 350;
+  background-color: #35130c;
+  color: #db4d2f; /* Black text color */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(to right, #0055a4, #ffffff, #ef3340); /* French flag colors */
+  backdrop-filter: blur(10px); /* Translucent blur effect */
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+#membersSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.member-card {
+  width: 300px;
+  background: rgba(169, 156, 219, 0.8); /* Translucent white background */
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.member-card:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+.member-card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+#div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #desc {
+    font-size: 32px;
+    color: rgb(168, 151, 172); /* Light color for the font */
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.8); /* Neon effect */
+  }
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #0055a4, #ffffff, #ef3340); /* French flag colors for footer */
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
